@@ -187,7 +187,11 @@
 // const paragraph = "The quick brown fox jumps over the lazy dog. The dog still sleeps and the fox is stealthy.";
 
 // paragraph.findWords("the");
+
 // paragraph.findWords("and");
+
 // paragraph.findWords("is");
+
 // paragraph.findWords("fox");
+
 // paragraph.findWords("dog");
