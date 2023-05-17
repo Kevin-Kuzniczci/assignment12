@@ -48,4 +48,10 @@ album2.play()
 album2.play()
 album3.play()
 
+const albumDropdown = document.getElementById('albumDropdown');
+const play = document.getElementById('play');
+const showFavorite = document.getElementById('showFavorite');
+const favoriteAlbum = document.getElementById('favoriteAlbum');
+
+
 console.log(`Your favorite album is: ${jbox.favoriteAlbum()}`)
