@@ -45,7 +45,6 @@ albumsArray.forEach(album => {
     jbox.addAlbum(albumInstance);
 });
 
-document.addEventListener("DOMContentLoaded", () => {
 const albumDropdown = document.getElementById("albumDropdown");
 const playButton = document.getElementById("playButton");
 const showFavorite = document.getElementById("showFavorite");
@@ -70,7 +69,7 @@ showFavorite.addEventListener("click", () => {
     const favAlbum = jbox.favoriteAlbum();
     favoriteAlbum.textContent = `Your favorite album is ${favAlbum}`;
 });
-});
+
 
 // jbox.addAlbum(album1)
 // jbox.addAlbum(album2)
